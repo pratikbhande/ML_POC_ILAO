@@ -1,0 +1,38 @@
+Category,Query,Expected Result,Optimal Output,Current Output
+Simple Positive - Rights,housing rights,Relevant,"Tenant rights overview, renting guides, landlord obligations",tenant and housing rights
+Simple Positive - Documents,will,Relevant,"Will creation guides, estate planning basics",No results
+Simple Positive - Process,appeal,Relevant,"Appeal process guides, deadlines, court forms",claim forms
+Simple Positive - Status,citizenship,Relevant,"Naturalization process, requirements, forms",residenship and citizen
+Simple Positive - Legal Term,garnishment,Relevant,"Wage garnishment rules, exemptions, limits",wage
+Multi-word Positive,changing child custody,Relevant,"Custody modification process, forms, requirements",adoption and responsibilities
+Multi-word Positive,small claims court filing,Relevant,"Filing procedures, court locations, fee information",smaller fines and court related stuff
+Multi-word Positive,domestic violence protection,Relevant,"Order of protection guides, emergency resources",domestic violence
+Multi-word Positive,security deposit return deadline,Relevant,"Return timeline, tenant rights, dispute process",security deposit
+Multi-word Positive,filing bankruptcy chapter 7,Relevant,"Chapter 7 requirements, process, exemptions",chapter 7 and 13 and bankruptcy
+Complex Positive,how do I fight an illegal eviction notice in Chicago,Relevant,"Eviction defense guides, tenant rights, legal aid resources",eviction rights in chicago
+Complex Positive,what happens if I miss my court date for traffic ticket,Relevant,"Missed court procedures, consequences, next steps","3rd, missed traffic hearing"
+Complex Positive,can landlord enter apartment without permission Illinois,Relevant,"Notice requirements, tenant rights, exceptions",lockouts and nuisance
+Complex Positive,steps to file discrimination complaint against employer,Relevant,"EEOC process, timelines, required documentation",workplace descrimation
+Complex Positive,how to get free legal help for divorce Cook County,Relevant,"Legal aid organizations, clinic schedules, eligibility",legal help and simplified divorce
+Question Format,what are squatters rights in Illinois?,Relevant,"Property possession laws, legal occupancy rules",confusing
+Question Format,when can I legally break my lease?,Relevant,"Lease termination conditions, notice requirements",lease end
+Question Format,do I need a lawyer for small claims?,Relevant,"Pro se information, court procedures, exceptions",pro se small claims
+Location Specific,Chicago tenant rights,Relevant,"Chicago-specific housing laws, RLTO details",chicago renters
+Location Specific,Springfield court forms,Relevant,"Sangamon County forms, filing procedures",no results
+Misspelled,evicshun notice,Relevant,"Same results as ""eviction notice""",no results
+Misspelled,divorc papers,Relevant,"Same results as ""divorce papers""",divorce
+Misspelled,bankrupsy help,Relevant,"Same results as ""bankruptcy help""",bankruptcy
+Negative,best pizza in Chicago,Not Relevant,No results should display,no results
+Negative,Illinois weather forecast,Not Relevant,No results should display,illinios weather and stuff
+Negative,car mechanic near me,Not Relevant,No results should display,mechanic lock on house
+Complex Negative,how to train your dog to sit and stay,Not Relevant,No results should display,no results
+Complex Negative,best restaurants open late night Springfield,Not Relevant,No results should display,no results
+Incomplete,help with,Unclear,Suggested search terms or categories,mixed
+Incomplete,legal I need,Unclear,Suggested search terms or categories,mixed
+Mixed Language,ayuda legal Chicago,Relevant,"Legal aid resources, Spanish language materials",mixed
+Mixed Language,divorció Illinois,Relevant,"Divorce guides, Spanish language materials",divorce
+Special Characters,!@#$ landlord rights,Relevant,"Same results as ""landlord rights""",rights and duties
+Special Characters,&&&& eviction notice,Relevant,"Same results as ""eviction notice""",eviction notice
+Very Long,I need help with my landlord who hasn't fixed my heater in 3 months and now it's winter and I have three kids and I don't know what to do about this situation please help me understand my rights as a tenant in Illinois,Relevant,"Repair and deduct rules, tenant rights, remedies",long query not supported
+Technical Legal,motion to dismiss 735 ILCS,Relevant,"Civil procedure guides, court forms, statutes",no results
+Technical Legal,pro se litigant forms,Relevant,"Self-help court forms, filing instructions",lawsuit and summons
